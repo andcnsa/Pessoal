@@ -30,7 +30,9 @@ public class CBCaixa implements CodigoDeBarras {
 		buildCodigoDeBarras();
 		buildLinhaDigitavel();
 	}
-	/**@see CodigoDeBarras#buildCodigoDeBarras()*/
+	/**
+	 * Função que gera o valor do código de barra (this.codigoDeBarras)
+	 */
 	@Override
 	public void buildCodigoDeBarras() {
 		StringBuilder valor = new StringBuilder()
